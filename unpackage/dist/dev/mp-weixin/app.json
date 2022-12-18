@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/bluetooth/index",
+    "pages/print/print",
+    "pages/history/history",
+    "pages/codescreen/codescreen",
+    "pages/check/check",
+    "pages/user/user",
+    "pages/shop/shop",
+    "pages/order/order",
+    "pages/address/index",
+    "pages/address/addSite",
+    "pages/login/login",
+    "pages/userInfo/userInfo",
+    "pages/register/register",
+    "pages/addbase/addbase",
+    "pages/addproduct/addproduct",
+    "pages/sym/sym",
+    "pages/addpch/addpch"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/zhuye.png",
+        "selectedIconPath": "static/iconactive/zhuye.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/icon/buoumaotubiao03.png",
+        "selectedIconPath": "static/iconactive/buoumaotubiao03.png",
+        "text": "我"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取经纬度"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

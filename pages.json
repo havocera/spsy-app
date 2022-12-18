@@ -1,0 +1,264 @@
+{
+	
+		"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		},
+	
+	
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+	    "path" : "pages/register/register",
+	    "style" : {
+			"navigationStyle":"custom"
+		}
+	},
+		 {
+		     "path" : "pages/index/index",
+		     "style" : {
+				 "navigationStyle":"custom"
+			 }
+		 },
+		 {
+			"path": "pages/bluetooth/index",
+			"style": {
+				"navigationBarTitleText": "连接蓝牙打印机"
+			}
+		}
+	    
+        ,{
+            "path" : "pages/print/print",
+            "style" : {
+				"navigationBarTitleText": "溯源码打印"
+			}
+        }
+        ,{
+            "path" : "pages/history/history",
+            "style" : {
+				"navigationBarTitleText": "产地列表",
+				"onReachBottomDistance":100
+			}
+        }
+        ,{
+            "path" : "pages/codescreen/codescreen",
+            "style" : {
+				"navigationBarTitleText": "产品列表"
+			}
+        }
+        ,{
+            "path" : "pages/check/check",
+            "style" : {
+				"navigationBarTitleText": "产品批次号"
+			}
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+        }
+        ,{
+            "path" : "pages/shop/shop",
+            "style" : {
+				"navigationBarTitleText": "社区"
+			}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+        },
+		{
+			"path":"pages/address/index",
+			"style":{
+				"navigationBarTitleText":"收货地址"
+			}
+		},
+		{
+			"path":"pages/address/addSite",
+			"style":{
+				"navigationBarTitleText":"添加地址"
+			}
+		},{
+		    "path" : "pages/shenhe/shenhe",
+		    "style" : {
+				"navigationBarTitleText": "注册企业管理"
+			}
+		}
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText":"授权登录"
+			}
+        }
+	
+        ,{
+            "path" : "pages/userInfo/userInfo",
+            "style" : {
+				"navigationBarTitleText":"个人信息"
+			}
+        }
+        ,{
+            "path" : "pages/registershenhe/registershenhe",
+            "style" : {
+				"navigationBarTitleText":"注册企业查询"
+			}
+        }
+        ,{
+            "path" : "pages/addbase/addbase",
+            "style" : {
+				"navigationBarTitleText":"添加产地"
+			}
+        }
+        ,{
+            "path" : "pages/addproduct/addproduct",
+            "style" : {
+				"navigationBarTitleText":"添加产品"
+			}
+        }
+        ,{
+            "path" : "pages/sym/sym",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+        ,{
+            "path" : "pages/addpch/addpch",
+            "style" : {
+				"navigationBarTitleText":"生产批次号"
+			}
+        }
+        ,{
+            "path" : "pages/trpuse/trpuse",
+           "style" : {
+           	"navigationBarTitleText":"投入品使用"
+           }
+            
+        }
+        ,{
+            "path" : "pages/trpbuy/trpbuy",
+           "style" : {
+           	"navigationBarTitleText":"投入品采购"
+           }
+            
+        }
+        ,{
+            "path" : "pages/companymanage/companymanage",
+           "style" : {
+           	"navigationBarTitleText":"企业信息管理"
+           }
+            
+        }
+        ,{
+            "path" : "pages/agriculturalwork/agriculturalwork",
+          "style" : {
+          	"navigationBarTitleText":"农事作业"
+          }
+            
+        }
+        ,{
+            "path" : "pages/trpuse/addtrpuse",
+           "style" : {
+           	"navigationBarTitleText":"添加投入品使用"
+           }
+            
+        },{
+		    "path" : "pages/detail/detail",
+		    "style" : {
+				"navigationBarTitleText": "企业详情"
+			}
+		}
+
+        ,{
+            "path" : "pages/trpuse/edittrpuse",
+           "style" : {
+           	"navigationBarTitleText":"编辑投入品使用"
+           }
+            
+        }
+        ,{
+            "path" : "pages/trpbuy/addtrpbuy",
+   "style" : {
+   	"navigationBarTitleText":"添加投入品采购"
+   }
+        }
+        ,{
+            "path" : "pages/trpbuy/edittrpbuy",
+            "style" : {
+                   	"navigationBarTitleText":"编辑投入品采购"
+                   }
+            
+        }
+        ,{
+            "path" : "pages/agriculturalwork/addnszy",
+           "style" : {
+                  	"navigationBarTitleText":"添加农事作业"
+                  }
+            
+        }
+        ,{
+            "path" : "pages/agriculturalwork/editnszy",
+            "style" : {
+                   	"navigationBarTitleText":"编辑农事作业"
+                   }
+            
+        }
+        ,{
+            "path" : "pages/pclogin/pclogin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "授权登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/icon/zhuye.png",
+	        "selectedIconPath": "static/iconactive/zhuye.png",
+	        "text": "首页"
+	    }, {
+	    //     "pagePath": "pages/shop/shop",
+	    //     "iconPath": "static/icon/gouwucheman.png",
+	    //     "selectedIconPath": "static/iconactive/gouwucheman.png",
+	    //     "text": "社区"
+	    // },{
+	        "pagePath": "pages/user/user",
+	        "iconPath": "static/icon/buoumaotubiao03.png",
+	        "selectedIconPath": "static/iconactive/buoumaotubiao03.png",
+	        "text": "我"
+	    }]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

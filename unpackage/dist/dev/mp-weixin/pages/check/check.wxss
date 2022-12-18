@@ -1,0 +1,9 @@
+
+.sticky {
+		width: 750rpx;
+		height: 80rpx;
+		background-color: #FFFFFF;
+		color: #fff;
+		padding: 24rpx;
+}
+

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/bluetooth/index",
+    "pages/print/print",
+    "pages/history/history",
+    "pages/codescreen/codescreen",
+    "pages/check/check",
+    "pages/user/user",
+    "pages/shop/shop",
+    "pages/order/order",
+    "pages/address/index",
+    "pages/address/addSite",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/zhuye.png",
+        "selectedIconPath": "static/iconactive/zhuye.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "static/icon/gouwucheman.png",
+        "selectedIconPath": "static/iconactive/gouwucheman.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/icon/buoumaotubiao03.png",
+        "selectedIconPath": "static/iconactive/buoumaotubiao03.png",
+        "text": "我"
+      }
+    ]
+  },
+  "minPlatformVersion": 1070,
+  "name": "蓝牙打印测试",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "package": "蓝牙打印测试",
+  "usingComponents": {}
+}
