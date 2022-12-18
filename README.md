@@ -1,4 +1,4 @@
-# BluetoothPrinter
+# spsyapp
 vue.js   uni-app 跨平台app框架 蓝牙连接打印机 demo , ESC TSPL 协议与打印机交互, 鉴于网上资料太少，深知踩坑之痛苦，以此开源分享，如果对你有帮助 请点个Satrt，谢谢。开源万岁
 
 ------对接蓝牙打印，有很多坑要踩，以下罗列几个大坑，希望大家少走弯路-----
@@ -9,8 +9,7 @@ vue.js   uni-app 跨平台app框架 蓝牙连接打印机 demo , ESC TSPL 协议
 
 3. 苹果手机ios可以打印， 安卓手机Android不能打印，是因为安卓 Android 底层貌似做了限制只能接受20个字节，所以数据包要拆分成20字节一组，多组多次发送 demo里面有拆分操作可以自己查看
 
------demo界面简单勿喷-_-
 
-![Image text](https://github.com/qihang666/BluetoothPrinter/blob/master/demo.jpg)
+
 
 
